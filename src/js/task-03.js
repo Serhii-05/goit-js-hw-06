@@ -11,7 +11,6 @@ const images = [
     url: 'https://images.pexels.com/photos/219943/pexels-photo-219943.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
     alt: 'Group of Horses Running',
   },
- 
 ];
 
 
@@ -20,7 +19,7 @@ const ulEl = document.querySelector('.gallery');
 // console.log(ulEl);
 
 const createGallery = ({ url, alt }) => {
-  return `<li><img src="${url}" alt="${alt}" width=320></li>`
+  return `<li><img src="${url}" alt="${alt}" width=100%></li>`
 };
 // console.log(createGallery);
 
