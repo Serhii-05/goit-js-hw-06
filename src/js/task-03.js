@@ -16,15 +16,15 @@ const images = [
 
 
 const ulEl = document.querySelector('.gallery');
-// console.log(ulEl);
+
 
 const createGallery = ({ url, alt }) => {
   return `<li><img src="${url}" alt="${alt}" width=100%></li>`
 };
-// console.log(createGallery);
+
 
 const list = images.map(createGallery).join('');
-// console.log(list);
+
 
 
 ulEl.insertAdjacentHTML('beforeend', list);
