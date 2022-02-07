@@ -16,15 +16,7 @@ const newArr = ingredients.map(el => {
   
   return li;
 });
-
-
-
-
-
 ulEl.append(...newArr);
-
-
-
 console.log(ulEl);
 
 
